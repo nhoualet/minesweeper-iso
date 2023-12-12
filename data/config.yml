@@ -1,0 +1,24 @@
+window:
+  fps: 30
+  width: 1080
+  height: 720
+  borderless: false
+  fullscreen: false
+  icon_path: logo.png
+  font_path: PressStart2P.ttf
+  resources_path: ./data/assets/
+game:
+  grid-column: 10
+  grid-row: 10
+  bomb-percent: 10
+  lives: -1
+  wrong_flag_penalty: false
+controls:
+  keys:
+    up: up
+    down: down
+    left: left
+    right: right
+    flag: f
+    open: space
+    replay: r
